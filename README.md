@@ -1,4 +1,3 @@
-markdown
 # Habr Top Daily Parser
 
 Парсер, который получает список самых популярных статей за день с сайта Habr и выводит в консоль заголовки и количество просмотров.
@@ -8,25 +7,26 @@ markdown
 
 ## Установка и запуск
 
-1. Клонируйте репозиторий:
+Клонируйте репозиторий:
    ```bash
    git clone https://github.com/Sunknn/habr-parser.git
    cd habr-parser
 Создайте виртуальное окружение и активируйте его:
 
-bash
 python -m venv venv
 source venv/bin/activate  # для Linux/macOS
 # или
 venv\Scripts\activate     # для Windows
+
 Установите зависимости:
 
 bash
 pip install -r requirements.txt
+
 Запустите парсер:
 
-bash
 python parser.py
+
 Пример вывода
 text
 1. Родина-мама, не бряцай оружьем | Просмотры: 30K
