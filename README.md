@@ -38,16 +38,3 @@ Python 3
 requests
 
 BeautifulSoup4
-
-text
-
----
-
-## 🚀 После создания – залей на GitHub
-
-В терминале (всё ещё с `(venv)`) выполни:
-
-```bash
-git add README.md
-git commit -m "Добавлен README с ссылкой на проект"
-git push
